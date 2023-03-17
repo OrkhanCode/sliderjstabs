@@ -45,7 +45,7 @@ icons[1].addEventListener("click", function () {
   } else {
     active.classList.remove("active");
     active.nextElementSibling.classList.add("active");
-    tabA.classList.remove("active-tab");
+    // tabA.classList.remove("active-tab");
     tabA.nextElementSibling.classList.add("active-tab");
   }
 })
